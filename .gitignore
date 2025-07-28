@@ -1,0 +1,38 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+
+# If using Cargo.lock for binaries, you may keep it
+# For libraries, it's often excluded
+Cargo.lock
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS resource forks
+Icon
+._*
+
+# Thumbnails
+._.DS_Store
+
+# VS Code
+.vscode/
+
+# IntelliJ / CLion
+.idea/
+*.iml
+
+# Xcode
+*.xcworkspace/
+*.xcodeproj/
+
+# Logs
+*.log
+
+# Backup files
+*~
+*.swp
+*.swo
